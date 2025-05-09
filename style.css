@@ -74,13 +74,12 @@ header #cis {
   bottom: 0;
   left: 0;
   background-color: #6b9087;
-  transition: width 0.3s ease;
+  transition: width 0.5s ease;
 }
 
 .header-nav ul li a:hover::after {
   width: 100%;
 }
-
 
 a.contact_btn {
   text-decoration: none;
@@ -95,7 +94,7 @@ a.contact_btn {
 a.contact_btn:hover {
   background-color: #fff;
   color: #405751;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 @media (max-width: 768px) {
@@ -115,7 +114,7 @@ a.contact_btn:hover {
     left: -100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.9);
-    transition: left 0.3s ease;
+    transition: left 0.5s ease;
     z-index: 1000;
   }
 
@@ -251,28 +250,40 @@ section .btn-more font {
   top: 0;
   right: 9%;
   rotate: 292.65deg;
+  animation: move 5s 0s infinite;
+  -webkit-animation: move 5s 0s infinite;
 }
 .welcome-bg2 {
   top: 31%;
   right: 1%;
+  animation: move 3s 0s infinite;
+  -webkit-animation: move 3s 0s infinite;
 }
 .welcome-bg3 {
   top: 35%;
   left: -2%;
+  animation: move 5s 0s infinite;
+  -webkit-animation: move 5s 0s infinite;
 }
 .welcome-bg4 {
   top: 38%;
   left: -2%;
+  animation: move 2s 0s infinite;
+  -webkit-animation: move 2s 0s infinite;
 }
 .welcome-bg5 {
   top: 80%;
   right: 2%;
   rotate: 44.75deg;
+  animation: move 5s 0s infinite;
+  -webkit-animation: move 5s 0s infinite;
 }
 .welcome-bg6 {
   bottom: 0%;
   left: -11%;
   rotate: 254.65deg;
+  animation: move 7s 0s infinite;
+  -webkit-animation: move 7s 0s infinite;
 }
 
 @media (max-width: 768px) {
@@ -320,7 +331,6 @@ section .btn-more font {
 }
 #welcome-area .card2-img {
   width: 30%;
-
 }
 
 @media (max-width: 992px) {
@@ -487,23 +497,29 @@ section .btn-more font {
 #viewMore-area .card-box .card-btn a:hover {
   background-color: #405751;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 #viewMore-area .viewMore-bg1 {
   top: 35%;
   left: 65%;
   z-index: -2;
+  animation: move 3s 0s infinite;
+  -webkit-animation: move 3s 0s infinite;
 }
 #viewMore-area .viewMore-bg2 {
   top: 25%;
   left: 68%;
   z-index: -1;
   rotate: 328.62deg;
+  animation: move 7s 0s infinite;
+  -webkit-animation: move 7s 0s infinite;
 }
 #viewMore-area .viewMore-bg3 {
   top: 0%;
   left: 0%;
   z-index: 0;
+  animation: move 5s 0s infinite;
+  -webkit-animation: move 5s 0s infinite;
 }
 
 @media (max-width: 768px) {
@@ -559,7 +575,7 @@ section .btn-more font {
 #news-area .news-title .news-btn a:hover {
   background-color: #405751;
   color: #fff;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
 
 .room-list {
@@ -636,6 +652,7 @@ footer {
   font-family: Arial, sans-serif;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 .footer-container {
@@ -747,12 +764,16 @@ hr {
   width: 15%;
   top: -10%;
   right: -8%;
+  animation: move 5s 0s infinite;
+  -webkit-animation: move 5s 0s infinite;
 }
 .footer-bg2 {
   position: absolute;
   width: 15%;
   top: -10%;
   right: -5%;
+  animation: move 3s 0s infinite;
+  -webkit-animation: move 3s 0s infinite;
 }
 
 @media (max-width: 768px) {

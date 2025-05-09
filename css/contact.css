@@ -225,7 +225,7 @@ section .btn-more font {
 }
 /*  */
 #contact {
-    background:url("../images/bg_img2.png") no-repeat center center;
+  background: url("../images/bg_img2.png") no-repeat center center;
 }
 .contact-container {
   display: flex;
@@ -299,6 +299,7 @@ footer {
   font-family: Arial, sans-serif;
   text-align: center;
   position: relative;
+  overflow: hidden;
 }
 
 .footer-container {
@@ -410,12 +411,16 @@ hr {
   width: 15%;
   top: -10%;
   right: -8%;
+  animation: move 3s 0s infinite;
+  -webkit-animation: move 3s 0s infinite;
 }
 .footer-bg2 {
   position: absolute;
   width: 15%;
   top: -10%;
   right: -5%;
+  animation: move 4s 0s infinite;
+  -webkit-animation: move 4s 0s infinite;
 }
 
 @media (max-width: 768px) {
