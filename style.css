@@ -110,12 +110,12 @@ a.contact_btn:hover {
   .header-nav {
     width: 100%;
     position: fixed;
-    top: 10%;
+    top: 16%;
     left: -100%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.9);
     transition: left 0.5s ease;
-    z-index: 1000;
+    z-index: 9999;
   }
 
   .header-nav.open {
